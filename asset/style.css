@@ -34,11 +34,16 @@ nav a{
 }
 
 .sectione{
-    height: 500px;
+    height: 600px;
     display: inline-block;
     width: 100%;
     margin-top: 30px;
     position: relative;
+}
+
+#banner1{
+    height: 600px;
+    width: 100%;
 }
 
 .didascaliaimg1{
@@ -55,21 +60,23 @@ nav a{
     color: rgb(95, 134, 219);
 }
 
-#banner1{
-    height: 500px;
-    width: 100%;
+.row{
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+#titolo2{
+    font-size: 2em;
+}
+
+#sottotitolo{
+    color: gray;
 }
 
 .clearfix{
     height: 492px;
     background-color: white;
     margin-top: 30px;
-}
-
-.row{
-    height: 90px;
-    background-color: black;
-    margin-bottom: 42px;
 }
 
 .colonna1{
