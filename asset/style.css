@@ -33,19 +33,37 @@ nav a{
     padding: 10px;
 }
 
-footer{
-    height: 100px;
-    background-color: black;
+.sectione{
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
 }
 
-.sectionkhaki{
-    height: 300px;
-    background-color: black;
+.didascaliaimg1{
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    color: rgb(95, 134, 219);
+}
+
+.didascaliaimg2{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    color: rgb(95, 134, 219);
+}
+
+#banner1{
+    height: 500px;
+    width: 100%;
 }
 
 .clearfix{
     height: 492px;
     background-color: white;
+    margin-top: 30px;
 }
 
 .row{
@@ -76,8 +94,7 @@ footer{
     clear: both;
 }
 
-main,
-section,
 footer{
-    margin-top: 42px;
+    height: 100px;
+    background-color: black;
 }
