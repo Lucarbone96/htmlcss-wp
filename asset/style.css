@@ -10,8 +10,7 @@ body{
 }
 
 header{
-    height: 100px;
-    background-color: black;
+    display: inline-block;
 }
 
 footer{
@@ -26,7 +25,7 @@ footer{
 
 .clearfix{
     height: 492px;
-    background-color: black;
+    background-color: white;
 }
 
 .row{
