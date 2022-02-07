@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,25 @@ body{
 
 header{
     display: inline-block;
+}
+
+#logo{
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    padding: 10px;
 }
 
 footer{
@@ -56,7 +76,6 @@ footer{
     clear: both;
 }
 
-header,
 main,
 section,
 footer{
