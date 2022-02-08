@@ -98,7 +98,6 @@ nav a{
     height: 159px;
     width: 18%;
     float: left;
-    display: inline-block;
     border-radius: 20px;
     position: relative;
 }
@@ -115,7 +114,6 @@ nav a{
     margin-left: 43px;
     margin-right: 43px;
     float: left;
-    display: inline-block;
     border-radius: 20px; 
     position: relative;
 }
@@ -132,7 +130,6 @@ nav a{
     float: left;
     border-radius: 20px;
     position: relative;
-    display: inline-block;
 }
 
 .clearfix::after{
@@ -147,5 +144,9 @@ nav a{
 
 footer{
     display: inline-block;
-    text-align: center;
+    margin-left: 48%;
+}
+
+#cuore{
+    color: red;
 }
