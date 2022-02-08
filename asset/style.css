@@ -44,6 +44,21 @@ nav a{
 #banner1{
     height: 600px;
     width: 100%;
+    border-radius: 20px;
+}
+
+.overlay{
+    background-color: rgba(32, 29, 29, 0.2);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.sfondo{
+    position: relative;
 }
 
 .didascaliaimg1{
