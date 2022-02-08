@@ -15,7 +15,7 @@ header{
 }
 
 #logo{
-    height: 100px;
+    height: 50px;
 }
 
 ul{
@@ -39,6 +39,11 @@ nav a{
     width: 100%;
     margin-top: 30px;
     position: relative;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 #banner1{
@@ -76,7 +81,6 @@ nav a{
 }
 
 .row{
-    height: 90px;
     margin-bottom: 30px;
 }
 
@@ -95,42 +99,44 @@ nav a{
 }
 
 .colonna1{
-    height: 159px;
+    height: 318px;
     width: 18%;
     float: left;
     border-radius: 20px;
     position: relative;
 }
 
-.dimension{
+#img1{
     height: 159px;
     width: 100%;
-    border-radius: 20px;
 }
 
 .colonna2{
-    height: 159px;
+    height: 318px;
     width: calc( 60% - 43px );
     margin-left: 43px;
     margin-right: 43px;
     float: left;
     border-radius: 20px;
-    position: relative; 
-    
+    position: relative;
 }
 
-#bannerdue{
+#img2{
     height: 159px;
     width: 100%;
-    border-radius: 20px;
 }
 
 .colonna3{
-    height: 159px;
+    height: 318px;
     width: 18%;
     float: left;
     border-radius: 20px;
     position: relative;
+}
+
+#img3{
+    height: 159px;
+    width: 100%;
 }
 
 .clearfix::after{
