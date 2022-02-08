@@ -114,8 +114,9 @@ nav a{
     margin-left: 43px;
     margin-right: 43px;
     float: left;
-    border-radius: 20px; 
-    position: relative;
+    border-radius: 20px;
+    position: relative; 
+    
 }
 
 #bannerdue{
