@@ -57,7 +57,7 @@ nav a{
     border-radius: 20px;
 }
 
-.sfondo{
+.copertura{
     position: relative;
 }
 
@@ -95,19 +95,44 @@ nav a{
 }
 
 .colonna1{
-    height: 318px;
-    background-color: black;
+    height: 159px;
     width: 18%;
     float: left;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dimension{
+    height: 159px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .colonna2{
-    height: 318px;
-    background-color: black;
+    height: 159px;
     width: calc( 60% - 43px );
     margin-left: 43px;
     margin-right: 43px;
     float: left;
+    display: inline-block;
+    border-radius: 20px; 
+    position: relative;
+}
+
+#bannerdue{
+    height: 159px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.colonna3{
+    height: 159px;
+    width: 18%;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
 }
 
 .clearfix::after{
@@ -116,7 +141,11 @@ nav a{
     clear: both;
 }
 
+#ipsum{
+    text-align: center;
+}
+
 footer{
-    height: 100px;
-    background-color: black;
+    display: inline-block;
+    text-align: center;
 }
